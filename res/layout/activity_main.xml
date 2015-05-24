@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+	        android:id="@+id/btn_tttt"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/tttt" />
+        
+        <Button
+	        android:id="@+id/btn_tftt"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/tftt" />
+        
+        <Button
+	        android:id="@+id/btn_tttf"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/tttf" />
+        
+        <Button
+	        android:id="@+id/btn_tftf"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/tftf" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+	        android:id="@+id/btn_fttt"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/fttt" />
+        
+        <Button
+	        android:id="@+id/btn_fftt"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/fftt" />
+        
+        <Button
+	        android:id="@+id/btn_fttf"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/fttf" />
+        
+        <Button
+	        android:id="@+id/btn_fftf"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/fftf" />
+    </LinearLayout>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/clear" />
+</LinearLayout>

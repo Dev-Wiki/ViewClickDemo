@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewClickDemo</string>
+    <string name="clear">Clear</string>
+    <string name="tttt">TTTT</string>
+    <string name="tftt">TFTT</string>
+    <string name="tttf">TTTF</string>
+    <string name="tftf">TFTF</string>
+    <string name="fttt">FTTT</string>
+    <string name="fftt">FFTT</string>
+    <string name="fttf">FTTF</string>
+    <string name="fftf">FFTF</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
