@@ -30,6 +30,7 @@ public class MainActivity extends Activity {
     private Button fttfButton;
     private Button fftfButton;
     private Button clearButton;
+    private Button hintButton;
     private TextView textView;
     private void initView() {
         textView = (TextView) super.findViewById(R.id.tv_result);
@@ -39,6 +40,20 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 textView.setText("");
+            }
+        });
+        hintButton = (Button) super.findViewById(R.id.btn_hint);
+        hintButton.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View v) {
+                textView.setText("");
+                textView.append(getResources().getString(R.string.hintContent));
+                textView.append(getResources().getString(R.string.hintContent1));
+                textView.append(getResources().getString(R.string.hintContent2));
+                textView.append(getResources().getString(R.string.hintContent3));
+                textView.append(getResources().getString(R.string.hintContent4));
+                textView.append(getResources().getString(R.string.hintContent5));
             }
         });
         ttttButton = (Button) super.findViewById(R.id.btn_tttt);

@@ -80,9 +80,22 @@
             android:layout_height="match_parent"/>
     </ScrollView>
     
-    <Button
-        android:id="@+id/btn_clear"
+    <LinearLayout 
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="@string/clear" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+	        android:id="@+id/btn_clear"
+	        android:layout_weight="8"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/clear" />
+        
+        <Button
+	        android:id="@+id/btn_hint"
+	        android:layout_weight="2"
+	        android:layout_width="0dp"
+	        android:layout_height="50dp"
+	        android:text="@string/hint" />
+    </LinearLayout>
 </LinearLayout>

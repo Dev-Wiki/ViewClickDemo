@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">ViewClickDemo</string>
     <string name="clear">Clear</string>
+    <string name="hint">Hint</string>
+    <string name="hintContent">四个字母分别代表:\n</string>
+    <string name="hintContent1">第一个:onLongClickListener返回值\n</string>
+    <string name="hintContent2">第二个:onTouchListener中ACTION_DOWN的返回值\n</string>
+    <string name="hintContent3">第三个:onTouchListener中ACTION_MOVE的返回值\n</string>
+    <string name="hintContent4">第四个:onTouchListener中ACTION_UP的返回值\n</string>
+    <string name="hintContent5">T表示返回为true,F表示返回false.\n</string>
     <string name="tttt">TTTT</string>
     <string name="tftt">TFTT</string>
     <string name="tttf">TTTF</string>
@@ -11,6 +17,4 @@
     <string name="fftt">FFTT</string>
     <string name="fttf">FTTF</string>
     <string name="fftf">FFTF</string>
-    <string name="action_settings">Settings</string>
-
 </resources>
